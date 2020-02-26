@@ -1,0 +1,23 @@
+body {
+    background-color: #f2f1f0;
+    margin: 5px;
+    font-family: 'kalam';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} 
+  
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    grid-gap: 19px;
+}
+
+.card {
+    background-color: white;
+    margin: 5px 2px;
+    padding: 10px;
+}
+
+.container > .card img {
+    max-width: 100%;
+}
